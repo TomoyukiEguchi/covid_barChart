@@ -8,7 +8,7 @@ export const barChart = (selection, props) => {
         data
     } = props;
 
-    const newData = data.slice(1,13);
+    const newData = data.slice(1,16);
     //console.log(newData);
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
