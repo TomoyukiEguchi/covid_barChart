@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+rect {
+    fill: rgb(255, 146, 146);
+}
+
+text {
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+.tick text {
+    fill: #635F5D;
+}
+
+.tick line {
+    stroke: #C0C0BB;
+}
+
+.source text {
+    font-size: 0.8em;
+    fill: gray;
+}
+.source:hover {
+    cursor: pointer;
+}
+
+#menus select {
+    font-size: 1.1em;
+}
