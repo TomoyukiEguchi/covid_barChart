@@ -65,7 +65,7 @@ export const barChart = (selection, props) => {
 
     g.enter()
         .append('g')
-            .attr('transform', `translate(600,${height-5})`)
+            .attr('transform', `translate(750,${height-5})`)
             .attr('class', 'source')
             .append('text')
                 .text('Source: World Health Organization')
